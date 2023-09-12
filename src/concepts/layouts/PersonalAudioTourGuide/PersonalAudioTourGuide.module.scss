@@ -1,55 +1,71 @@
-
+.iconDesktop {
+  object-fit: cover;
+  @media (max-width: 992px) {
+    display: none;
+  }
+}
+.iconTablet {
+  display: none;
+  @media (max-width: 992px) {
+    display: block;
+    object-fit: cover;
+  }
+  @media (max-width: 575px) {
+    display: none;
+  }
+}
+.iconMob {
+  display: none;
+  @media (max-width: 575px) {
+    display: block;
+    object-fit: cover;
+    height: 851px;
+  }
+}
 .body {
-  background-image: url('/images/bgDesktop.png');
-  background-repeat: no-repeat;
   height: 1160px;
   width: 100%;
   position: relative;
   top: 80px;
-  background-size: 100%;
-  @media (max-width: 1680px) {
-    background-size: 135%;
-    margin-bottom: 90px;
+  background-repeat: no-repeat;
+  background-position: center;
+  @media (max-width: 1920px) {
+    height: 767px;
+    background-position: center;
   }
   @media (max-width: 1440px) {
     height: 767px;
     background-position: center;
   }
-  @media (max-width: 1024px) {
-    background-size: 200%;
-  }
   @media (max-width: 992px) {
-    background-image: url('/images/blockTablet.png');
-    background-size: 100%;
+
   }
-  @media (max-width: 912px) {
-    background-size: 140%;
-  }
-  @media (max-width: 768px) {
-    background-image: url('/images/blockTablet.png');
-    background-size: 135%;
-  }
+  //@media (max-width: 912px) {
+  //  background-size: 140%;
+  //}
+  //@media (max-width: 768px) {
+  //  background-image: url('/images/blockTablet.png');
+  //  background-size: 135%;
+  //}
   @media (max-width: 575px) {
-    background-image: url('/images/bgMobile.png');
+    top:70px;
     height: 851px;
-    top: 70px;
-    background-size: 100%;
   }
-  @media (max-width: 450px) {
-    background-size: 135%;
-  }
-  @media (max-width: 424px) {
-    background-size: 150%;
-  }
-  @media (max-width: 375px) {
-    background-size: 155%;
-  }
-  @media (max-width: 360px) {
-    background-size: 160%;
-  }
-  @media (max-width: 320px) {
-    background-size: 180%;
-  }
+  //@media (max-width: 450px) {
+  //  background-size: 135%;
+  //}
+  //@media (max-width: 424px) {
+  //  background-size: 150%;
+  //}
+  //@media (max-width: 375px) {
+  //  background-size: 155%;
+  //}
+  //@media (max-width: 360px) {
+  //  background-size: 160%;
+  //}
+  //@media (max-width: 320px) {
+  //  background-size: 180%;
+  //}
 }
 
 
@@ -103,13 +119,13 @@
 .body__AppBlock {
   display: flex;
   margin-top: 40px;
-  cursor: pointer;
   @media (max-width: 575px) {
     padding: 0 18px;
     margin-top: 24px;
   }
   .body__AppBlock__item {
     margin-right: 15px;
+    cursor: pointer;
 
     &:last-child {
       margin-right: 0;

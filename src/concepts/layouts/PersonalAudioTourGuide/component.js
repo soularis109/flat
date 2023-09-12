@@ -8,6 +8,9 @@ import Image from "next/image";
 const PersonalAudioTourGuide = () => {
     return (
         <div className={styles.body}>
+            <Image src={'/images/bgDesktop.png'} alt={'icon-desktop'} layout={'fill'} className={styles.iconDesktop}/>
+            <Image src={'/images/blockTablet.png'} alt={'icon-tablet'} layout={'fill'} className={styles.iconTablet}/>
+            <Image src={'/images/bgMobile.png'} alt={'icon-mob'} layout={'fill'} className={styles.iconMob}/>
             <div className={'container'}>
                     <div className={styles.body__title}>
                         <FormattedMessage id={'personal.text'} />

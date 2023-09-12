@@ -1,0 +1,33 @@
+.second_block_wrapper {
+  margin-bottom: 40px;
+  margin-top: 91px;
+  .title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .item_wrapper {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    @media screen and (min-width: 1640px) {
+      margin: 0 200px;
+    }
+  }
+
+  .bigItem_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media screen and (min-width: 1024px) {
+      flex-direction: row;
+    }
+  }
+}

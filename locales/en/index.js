@@ -1,10 +1,10 @@
-import shared from './shared';
-import modules from './modules';
+import shared from "./shared";
+import modules from "./modules";
 
 export default {
-  locale: 'en',
+  locale: "en",
   messages: {
     ...shared,
-    ...modules
-  }
+    ...modules,
+  },
 };
