@@ -6,7 +6,6 @@ import Link from "next/link";
 import {AppDownload} from "@/shared/utils/follow";
 const Header = () => {
     return (
-        <div className={'container'}>
         <div className={styles.header}>
         <div className={styles.header__block}>
             <Link href={'/'}>
@@ -44,7 +43,6 @@ const Header = () => {
             </div>
         </div>
     </div>
-        </div>
             );
 };
 

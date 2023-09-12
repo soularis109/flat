@@ -1,6 +1,10 @@
 .header {
   height: 80px;
   padding: 21px 0;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background: #FFFFFF;
   @media (max-width: 575px) {
     padding: 15px;
     height: 70px;
@@ -11,7 +15,14 @@
 .header__block {
   display: flex;
   justify-content: space-between;
+  width: 1110px;
+  margin: 0 auto;
+  @media (max-width: 1109px) {
+    padding: 0 45px;
+    width: 100%;
+  }
   @media (max-width: 575px) {
+    padding: 0;
     justify-content: space-between;
   }
 }
