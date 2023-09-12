@@ -1,6 +1,6 @@
 
 .body {
-  background-image: url('/images/svg/bgDesktop.svg');
+  background-image: url('/images/bgDesktop.png');
   background-repeat: no-repeat;
   height: 1160px;
   width: 100%;
@@ -8,26 +8,51 @@
   top: 80px;
   background-size: 100%;
   @media (max-width: 1680px) {
-    background-size: auto;
+    background-size: 135%;
     margin-bottom: 90px;
   }
   @media (max-width: 1440px) {
     height: 767px;
     background-position: center;
   }
+  @media (max-width: 1024px) {
+    background-size: 200%;
+  }
   @media (max-width: 992px) {
-    background-image: url('/images/svg/blockTablet.svg');
-    height: 740px;
+    background-image: url('/images/blockTablet.png');
+    background-size: 100%;
+  }
+  @media (max-width: 912px) {
+    background-size: 140%;
+  }
+  @media (max-width: 768px) {
+    background-image: url('/images/blockTablet.png');
+    background-size: 135%;
   }
   @media (max-width: 575px) {
-    background-image: url('/images/svg/bgMobile.svg');
+    background-image: url('/images/bgMobile.png');
     height: 851px;
     top: 70px;
+    background-size: 100%;
+  }
+  @media (max-width: 450px) {
+    background-size: 135%;
+  }
+  @media (max-width: 424px) {
+    background-size: 150%;
+  }
+  @media (max-width: 375px) {
+    background-size: 155%;
+  }
+  @media (max-width: 360px) {
+    background-size: 160%;
+  }
+  @media (max-width: 320px) {
+    background-size: 180%;
   }
 }
 
-.body__block {
-}
+
 .body__title {
   font-size: 74px;
   font-style: normal;
@@ -92,17 +117,8 @@
   }
   .body__AppBlock__img {
     width: 165px;
+    height: 48px;
   }
 }
 
-.body__line__pin__orange {
-  position: absolute;
-  top: 65px;
-  left: 60px
-}
-.body__line__pin__red {
-  position: absolute;
-  bottom: 20px;
-  right: 80px
 
-}

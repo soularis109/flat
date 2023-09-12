@@ -3,6 +3,7 @@ import styles from './PersonalAudioTourGuide.module.scss';
 import {FormattedMessage} from "react-intl";
 import {AppDownload} from "@/shared/utils/follow";
 import Link from "next/link";
+import Image from "next/image";
 
 const PersonalAudioTourGuide = () => {
     return (
@@ -19,7 +20,13 @@ const PersonalAudioTourGuide = () => {
                             return (
                                 <div key={index} className={styles.body__AppBlock__item}>
                                     <Link href={item.link} target={item.target}>
-                                        <img src={item.icon} alt={item.name} className={styles.body__AppBlock__img}/>
+                                        <Image
+                                            src={item.icon}
+                                            alt={item.name}
+                                            width={180}
+                                            height={53}
+                                            className={styles.body__AppBlock__img}
+                                        />
                                     </Link>
                                 </div>
                             )

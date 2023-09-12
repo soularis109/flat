@@ -3,6 +3,7 @@ import styles from "./Footer.module.scss";
 import {FormattedMessage} from "react-intl";
 import {AppDownload, Socials} from "@/shared/utils/follow";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
     return (
@@ -19,7 +20,7 @@ const Footer = () => {
                                     <div className={styles.footer__socialBlock__item} key={index}>
                                         <Link href={item.link} target={item.target}>
                                             <div className={styles.footer__socialBlock__icon}>
-                                                <img src={item.icon} alt={item.name}/>
+                                                <Image width={20} height={20} src={item.icon} alt={item.name}/>
                                             </div>
                                         </Link>
                                     </div>
@@ -33,7 +34,9 @@ const Footer = () => {
                             return (
                                 <div key={index} className={styles.footer__AppBlock__item}>
                                     <Link href={item.link} target={item.target}>
-                                        <img src={item.icon} alt={item.name} />
+                                        <Image width={179}  height={53} src={item.icon} alt={item.name}
+                                        className={styles.footer__AppBlock__img}
+                                        />
                                     </Link>
                                 </div>
                             )

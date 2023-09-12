@@ -4,8 +4,6 @@
   background: $primary-dark;
   padding: 20px 0;
   height: 112px;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   @media (max-width: 1440px) {
     position: relative;
@@ -98,4 +96,18 @@
       margin-bottom: 0;
     }
   }
+}
+.footer__AppBlock__img {
+  width: 179px;
+  height: 53px;
+  @media (max-width: 992px) {
+    width: 136px;
+    height: 40px;
+  }
+  @media (max-width: 575px) {
+    width: 116px;
+    height: 34px;
+  }
+
+
 }

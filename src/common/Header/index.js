@@ -4,6 +4,7 @@ import DownloadTheAppButtons from "@/shared/components/general/buttons/DownloadT
 import {FormattedMessage} from "react-intl";
 import Link from "next/link";
 import {AppDownload} from "@/shared/utils/follow";
+import Image from "next/image";
 const Header = () => {
     return (
         <div className={styles.header}>
@@ -11,11 +12,23 @@ const Header = () => {
             <Link href={'/'}>
             <div className={styles.header__logo}>
                     <div className={styles.header__logo__icon}>
-                        <img src={'/images/svg/ElephantLogo.svg'}/>
+                        <Image src={'/images/svg/ElephantLogo.svg'} width={38} height={38} alt={'logo-flat'}/>
                     </div>
                     <div className={styles.header__logo__icon}>
-                            <img src={'/images/svg/FlatPlanetLogo.svg'} className={styles.header__logo__icon__Mob}/>
-                            <img src={'/images/svg/FlatPlanetBig.svg'} className={styles.header__logo__icon__Desktop}/>
+                            <Image
+                                width={70}
+                                height={33}
+                                src={'/images/svg/FlatPlanetLogo.svg'}
+                                className={styles.header__logo__icon__Mob}
+                                alt={'logo-title'}
+                            />
+                            <Image
+                                width={204}
+                                height={25}
+                                src={'/images/svg/FlatPlanetBig.svg'}
+                                className={styles.header__logo__icon__Desktop}
+                                alt={'logo-title'}
+                            />
                     </div>
             </div>
             </Link>

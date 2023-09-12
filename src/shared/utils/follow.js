@@ -5,7 +5,7 @@ export const Socials = [
     {name:'Email',link:'google.com.ua',icon:'/images/svg/email.svg',target:'_blank'},
 ]
 export const AppDownload = [
-    {name:'AppStore',link:'google.com.ua',icon:'images/svg/AppStore.svg',target:'_blank'},
-    {name:'GooglePlay',link:'google.com.ua',icon:'images/svg/GooglePlay.svg',target:'_blank'},
+    {name:'AppStore',link:'google.com.ua',icon:'/images/AppStore.png',target:'_blank'},
+    {name:'GooglePlay',link:'google.com.ua',icon:'/images/GooglePlay.png',target:'_blank'},
 
 ]
