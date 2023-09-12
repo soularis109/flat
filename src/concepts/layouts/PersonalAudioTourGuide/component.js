@@ -8,7 +8,6 @@ const PersonalAudioTourGuide = () => {
     return (
         <div className={styles.body}>
             <div className={'container'}>
-                <div className={styles.body__block}>
                     <div className={styles.body__title}>
                         <FormattedMessage id={'personal.text'} />
                     </div>
@@ -27,7 +26,6 @@ const PersonalAudioTourGuide = () => {
                         })}
                     </div>
                 </div>
-            </div>
         </div>
     );
 }

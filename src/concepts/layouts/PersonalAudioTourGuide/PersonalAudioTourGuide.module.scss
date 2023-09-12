@@ -8,7 +8,7 @@
   top: 80px;
   background-size: 100%;
   @media (max-width: 1680px) {
-  background-size: auto;
+    background-size: auto;
     margin-bottom: 90px;
   }
   @media (max-width: 1440px) {
@@ -16,11 +16,11 @@
     background-position: center;
   }
   @media (max-width: 992px) {
-    background-image: url('/images/blockTablet.png');
+    background-image: url('/images/svg/blockTablet.svg');
     height: 740px;
   }
   @media (max-width: 575px) {
-    background-image: url('/images/bgMobile.png');
+    background-image: url('/images/svg/bgMobile.svg');
     height: 851px;
     top: 70px;
   }
