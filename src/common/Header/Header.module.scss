@@ -1,0 +1,86 @@
+.header {
+  height: 80px;
+  padding: 21px 0;
+  @media (max-width: 575px) {
+    padding: 15px;
+    height: 70px;
+
+  }
+}
+
+.header__block {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 575px) {
+    justify-content: space-between;
+  }
+}
+
+.header__logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo__icon__Mob {
+  display: none;
+  @media (max-width: 575px) {
+    display: block;
+  }
+}
+.header__logo__icon__Desktop {
+  display: block;
+  @media (max-width: 575px) {
+    display: none;
+  }
+}
+
+.header__logo__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  @media (max-width: 575px) {
+    &:first-child {
+      margin-right: 6px;
+    }
+  }
+}
+
+.text__link {
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
+}
+
+.header__AppBlock {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  @media (max-width: 575px) {
+    display: none;
+  }
+}
+
+.download__block {
+  display: none;
+  @media (max-width: 575px) {
+    display: block;
+  }
+}
+
+.header__AppBlock__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  .header__AppBlock__icon {
+    height: 40px;
+  }
+}
