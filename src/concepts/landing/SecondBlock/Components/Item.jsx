@@ -13,7 +13,7 @@ const Item = ({ item }) => {
       <Image
         src={item.image}
         width={180}
-        height={210}
+        height={187}
         alt="item"
         className={styles.item_image}
       />

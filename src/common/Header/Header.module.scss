@@ -5,7 +5,8 @@
   top:0;
   z-index: 100;
   width: 100%;
-  background: #FFFFFF;
+  background: #FFF;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.03);
   @media (max-width: 575px) {
     padding: 15px;
     height: 70px;

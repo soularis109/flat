@@ -5,6 +5,8 @@ import PersonalAudioTourGuide from "@/concepts/layouts/PersonalAudioTourGuide";
 import SecondBlock from "@/concepts/landing/SecondBlock";
 import ImageBlock from "@/concepts/landing/ImageBlock";
 const inter = Inter({ subsets: ["latin"] });
+import MakeYourPhone from "@/concepts/layouts/MakeYourPhone";
+
 export default function Home() {
   return (
     <>
@@ -18,6 +20,7 @@ export default function Home() {
         <PersonalAudioTourGuide />
         <SecondBlock />
         <ImageBlock />
+        <MakeYourPhone/>
       </MainLayout>
     </>
   );

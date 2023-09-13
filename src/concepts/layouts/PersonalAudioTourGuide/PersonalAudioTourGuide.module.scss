@@ -11,7 +11,7 @@
     object-fit: cover;
   }
   @media (max-width: 575px) {
-    display: none;
+   display: none;
   }
 }
 .iconMob {
@@ -19,7 +19,6 @@
   @media (max-width: 575px) {
     display: block;
     object-fit: cover;
-    height: 851px;
   }
 }
 .body {
@@ -31,18 +30,21 @@
   background-position: center;
   @media (max-width: 1920px) {
     height: 767px;
-    background-position: center;
-  }
-  @media (max-width: 1440px) {
-    height: 767px;
-    background-position: center;
   }
   @media (max-width: 992px) {
-
+    height: 950px;
   }
-
+  @media (max-width: 768px) {
+    height: 767px;
+  }
   @media (max-width: 575px) {
+    height: 1151px;
     top:70px;
+  }
+  @media (max-width: 450px) {
+    height: 1010px;
+  }
+  @media (max-width: 375px) {
     height: 851px;
   }
 

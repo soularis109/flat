@@ -6,6 +6,7 @@ import useSecondBlock from "./useSecondBlock";
 
 const SecondBlock = () => {
   const { bigItemList, itemList } = useSecondBlock();
+
   return (
     <div className={styles.second_block_wrapper}>
       <h5 className={styles.title}>

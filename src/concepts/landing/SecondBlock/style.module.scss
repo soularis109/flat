@@ -42,19 +42,34 @@
     }
   }
 
+  @media screen and (min-width: 1024px) {
+    background-image: url("/images/bg_elements.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   @media screen and (min-width: 1440px) {
-    margin: 0 10%;
+    .item_wrapper {
+      margin: 0 10%;
+    }
   }
 
   @media screen and (min-width: 2000px) {
-    margin: 0 20%;
+    .item_wrapper {
+      margin: 0 20%;
+    }
   }
 
   @media screen and (min-width: 2800px) {
-    margin: 0 25%;
+    .item_wrapper {
+      margin: 0 25%;
+    }
   }
 
   @media screen and (min-width: 3200px) {
-    margin: 0 28%;
+    .item_wrapper {
+      margin: 0 28%;
+    }
   }
 }
