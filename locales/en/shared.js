@@ -2,6 +2,7 @@ export default {
   "download.button": "Download the app",
 
   //second block
+  "secondBlock.title": " More than self-made routes, better than classic tours",
   "bigItem.title.start": "Free Tour",
   "bigItem.title": " of Any City",
   "bigItem.description": "Any city in Flat Planet has free tour! Ready to try?",

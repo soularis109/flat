@@ -20,6 +20,9 @@ a {
   position: relative;
   width: 1110px;
   margin: 0 auto;
+  @media (max-width: 1200px) {
+    width: 1000px;
+  }
   @media (max-width: 1109px) {
     padding: 0 45px;
     width: 100%;

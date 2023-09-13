@@ -40,32 +40,12 @@
   @media (max-width: 992px) {
 
   }
-  //@media (max-width: 912px) {
-  //  background-size: 140%;
-  //}
-  //@media (max-width: 768px) {
-  //  background-image: url('/images/blockTablet.png');
-  //  background-size: 135%;
-  //}
+
   @media (max-width: 575px) {
     top:70px;
     height: 851px;
   }
-  //@media (max-width: 450px) {
-  //  background-size: 135%;
-  //}
-  //@media (max-width: 424px) {
-  //  background-size: 150%;
-  //}
-  //@media (max-width: 375px) {
-  //  background-size: 155%;
-  //}
-  //@media (max-width: 360px) {
-  //  background-size: 160%;
-  //}
-  //@media (max-width: 320px) {
-  //  background-size: 180%;
-  //}
+
 }
 
 
@@ -84,6 +64,7 @@
     line-height: 64px;
     padding-top: 26px;
     padding-bottom: 24px;
+    width: 503px;
   }
   @media (max-width: 575px) {
     font-size: 44px;
@@ -91,7 +72,7 @@
     font-weight: 900;
     line-height: 50px;
     padding: 26px 18px 16px 18px;
-    width: 90%;
+    width: 370px;
   }
 }
 .body__sub__title {

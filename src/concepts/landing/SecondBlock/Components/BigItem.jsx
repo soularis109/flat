@@ -3,13 +3,24 @@ import styles from "./style.module.scss";
 const BigItem = ({ item }) => {
   return (
     <div className={styles.big_item}>
-      <Image
-        alt="item"
-        className={styles.image_sm}
-        src={item.image}
-        width={345}
-        height={256}
-      />
+      <div className={styles.item_imageBlock}>
+        <Image
+          alt="item"
+          className={styles.image_bg}
+          // src={item.image}
+          src="/images/bg_bigItem.png"
+          width={345}
+          height={256}
+        />
+        <Image
+          alt="item"
+          className={styles.image}
+          src={item.image}
+          width={345}
+          height={345}
+        />
+      </div>
+
       <Image
         alt="item"
         className={styles.image_md}

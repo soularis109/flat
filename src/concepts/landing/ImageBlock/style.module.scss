@@ -1,0 +1,33 @@
+.image_wrapper {
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+
+  .image_sm {
+    display: block;
+  }
+
+  .image_md,
+  .image_lg {
+    display: none;
+  }
+  @media screen and (min-width: 540px) {
+    .image_sm {
+      display: none;
+    }
+    .image_md {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .image_md {
+      display: none;
+    }
+    .image_lg {
+      display: block;
+    }
+  }
+}

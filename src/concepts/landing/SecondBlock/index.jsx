@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import BigItem from "./Components/BigItem";
 import Item from "./Components/Item";
 import styles from "./style.module.scss";
@@ -8,7 +9,7 @@ const SecondBlock = () => {
   return (
     <div className={styles.second_block_wrapper}>
       <h5 className={styles.title}>
-        More than self-made routes, better than classic tours
+        <FormattedMessage id={"secondBlock.title"} />
       </h5>
 
       <div className={styles.bigItem_wrapper}>
