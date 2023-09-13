@@ -1,123 +1,219 @@
-.iconDesktop {
+.body {
+  background-image: url('/images/svg/bgMake.svg');
+  background-repeat: no-repeat;
+  height: 680px;
+  width: 100%;
+  //background-position: center;
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: 24px;
+  background-position: center;
+  background-size: auto;
+
+  @media (max-width: 992px) {
+    height: 600px;
+    background-image: url('/images/bgTabletMake.png');
+    background-size: 100%;
+  }
+  @media (max-width: 575px) {
+    background-image: url('/images/svg/bgSection3Mob.svg');
+    background-repeat: no-repeat;
+    height: 1009px;
+    width: 100%;
+    background-size: 100%;
+  }
+}
+
+.body__bg__desktop {
   object-fit: cover;
   @media (max-width: 992px) {
     display: none;
   }
-}
-.iconTablet {
-  display: none;
-  @media (max-width: 992px) {
-    display: block;
-    object-fit: cover;
-  }
-  @media (max-width: 575px) {
-   display: none;
-  }
-}
-.iconMob {
-  display: none;
-  @media (max-width: 575px) {
-    display: block;
-    object-fit: cover;
-  }
-}
-.body {
-  height: 1160px;
-  width: 100%;
-  position: relative;
-  top: 80px;
-  background-repeat: no-repeat;
-  background-position: center;
-  @media (max-width: 1920px) {
-    height: 767px;
-  }
-  @media (max-width: 992px) {
-    height: 950px;
-  }
-  @media (max-width: 768px) {
-    height: 767px;
-  }
-  @media (max-width: 575px) {
-    height: 1151px;
-    top:70px;
-  }
-  @media (max-width: 450px) {
-    height: 1010px;
-  }
-  @media (max-width: 375px) {
-    height: 851px;
-  }
 
 }
-
+.body__info {
+  padding: 97px 0;
+  @media (max-width: 992px) {
+    padding: 70px 0;
+    width: 387px;
+  }
+  @media (max-width: 575px) {
+    padding: 40px 18px 0 18px;
+    margin: 0 auto;
+  }
+}
 
 .body__title {
-  font-size: 74px;
+  font-size: 52px;
   font-style: normal;
   font-weight: 900;
-  line-height: 84px;
-  padding-top: 82px;
-  padding-bottom: 32px;
-  width: 594px;
+  line-height: 58px;
+  width: 490px;
+  margin-bottom: 32px;
   @media (max-width: 992px) {
-    font-size: 54px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 64px;
-    padding-top: 26px;
-    padding-bottom: 24px;
-    width: 503px;
-  }
-  @media (max-width: 575px) {
     font-size: 44px;
     font-style: normal;
     font-weight: 900;
-    line-height: 50px;
-    padding: 26px 18px 16px 18px;
-    width: 370px;
+    line-height: 52px;
+    width: 387px;
+  }
+  @media (max-width: 768px) {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 52px;
+    width: 387px;
+  }
+  @media (max-width: 575px) {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 42px;
+    width: 311px;
+    margin-bottom: 24px;
   }
 }
+
 .body__sub__title {
-  font-size: 28px;
+  width: 367px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: 36px;
-  width: 412px;
+  margin-bottom: 14px;
   @media (max-width: 992px) {
-    font-size: 24px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 30px;
+    width: 313px;
   }
   @media (max-width: 575px) {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 28px;
-    padding: 0 15px 0 18px;
-    width: 342px;
+    line-height: 26px;
+    margin-bottom: 12px;
   }
 }
 
-.body__AppBlock {
-  display: flex;
-  margin-top: 40px;
+.body__sub__title__two {
+  width: 411px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 14px;
+  @media (max-width: 992px) {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    width: 292px;
+  }
   @media (max-width: 575px) {
-    padding: 0 18px;
-    margin-top: 24px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 12px;
   }
-  .body__AppBlock__item {
-    margin-right: 15px;
-    cursor: pointer;
+}
 
-    &:last-child {
-      margin-right: 0;
-    }
+.body__sub__title__third {
+  width: 380px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  @media (max-width: 992px) {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    width: 324px;
   }
-  .body__AppBlock__img {
+  @media (max-width: 575px) {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+  }
+}
+
+.body__sub__title__bold {
+  font-weight: 900;
+}
+
+.body__block {
+  display: flex;
+  @media (max-width: 575px) {
+    display: block;
+
+  }
+}
+
+.body__phone {
+  background-image: url('/images/mobileMakeDesktop.png');
+  background-repeat: no-repeat;
+  width: 725px;
+  height: 658px;
+  background-size: 115%;
+  background-position: bottom;
+  position: relative;
+  top: 30px;
+  @media (max-width: 1200px) {
+    background-size: 125%;
+  }
+  @media (max-width: 1024px) {
+    background-size: 140%;
+  }
+  @media (max-width: 992px) {
+    background-image: url('/images/mobileMakeTablet.png');
+    background-size: 115%;
+    top: 95px;
+    width: 576px;
+    height: 533px;
+  }
+  @media (max-width: 768px) {
+    background-size: 100%;
+    position:absolute;
+    top: 90px;
+    right: -115px;
+  }
+  @media (max-width: 575px) {
+    display: block;
+    background-image: url('/images/mobileMakeMob.png');
+    background-repeat: no-repeat;
+    position: relative;
+    left: 0;
+    top: 0;
+    background-size: 155%;
+    width: 375px;
+    height: 473px;
+    margin: 0 auto;
+  }
+}
+.body__AppBlock {
+  display: none;
+  @media (max-width: 575px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 36px 0 29px 0;
+    padding: 0 18px;
+  }
+}
+
+.body__AppBlock__item {
+  margin-right: 15px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  .body__AppBlock__icon {
     width: 165px;
     height: 48px;
   }
 }
-
-
